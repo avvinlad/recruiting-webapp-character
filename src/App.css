@@ -19,7 +19,7 @@
 .App-header {
   background-color: #282c34;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -28,6 +28,8 @@
 
 .App-section {
   flex: 1 1 0;
+  justify-content: center;
+  flex-direction: column;
   background-color: hsl(220deg 13% 13%);
   color: white;
 }
@@ -35,6 +37,35 @@
 .App-link {
   color: #61dafb;
 }
+
+.Attributes-section {
+  border: 2px solid teal;
+  padding: 4px;
+}
+
+.Classes-section {
+  border: 2px solid #800040;
+  padding: 4px;
+}
+
+.Skills-section {
+  border: 2px solid #800080;
+  padding: 4px;
+}
+
+.Skills-list {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  padding: 8px;
+}
+
+.Skills-buttons {
+  padding: 10px;
+  margin: 4px 0 0 4px;
+}
+
 
 @keyframes App-logo-spin {
   from {
